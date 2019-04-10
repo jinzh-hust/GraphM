@@ -14,4 +14,7 @@ Before running concurrent applications on a graph, the original graph data needs
 ```
 ./bin/preprocess -i [input path] -o [output path] -v [vertices] -p [partitions] -t [edge type: 0=unweighted, 1=weighted]
 ```
-Then, 
+Then, the graph partitions need to be further logically divided into chunks:
+```
+./bin/preprocessing -i [input path] -o [output path] -v [vertices] -p [partitions] -t [edge type: 0=unweighted, 1=weighted]
+```
