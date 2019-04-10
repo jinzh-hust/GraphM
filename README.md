@@ -26,5 +26,9 @@ For example, we want to divide the grid format [LiveJournal](http://snap.stanfor
 # Running Applications
 We concurrently submmit the PageRank, WCC, BFS, SSSP to GridGraph-M through the concurrent_jobs application. To concurrently run these applications, just need to give the follwing parameters:
 ```
-./bin/concurrent_jobs [path] [number of jobs] [iterations] [start vertex id] [cache size in MB] [graph size in MB] [memory budget in GB
+./bin/concurrent_jobs [path] [number of concurrent jobs] [iterations] [start vertex id] [cache size in MB] [graph size in MB] [memory budget in GB]
+```
+For example, to run 10 iterations of above four algorithms as eight jobs (i.e., submitting the same job twice in succession) on the LiveJournal:
+```
+./bin/concurrent_jobs /data/LiveJournal 2 10 0 20 526.38 8
 ```
