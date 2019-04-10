@@ -6,5 +6,7 @@ Sharing() call is inserted between successive graph loads in the existing system
 
 #Compilation
 Compilers supporting basic C++11 features (lambdas, threads, etc.) and OpenMP are required, the other requirements and the compiled method are same as the original systems. Take GridGraph as an example:
-$make
+```
+make
+```
 
