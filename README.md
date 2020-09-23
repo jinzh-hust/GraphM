@@ -32,3 +32,37 @@ For example, to run 10 iterations of above four algorithms as eight jobs (i.e., 
 ```
 ./bin/concurrent_jobs /data/LiveJournal 2 10 0 20 526.38 8
 ```
+
+## Resources
+Jin Zhao, Yu Zhang, Xiaofei Liao, Ligang He, Bingsheng He, Hai Jin, Haikun Liu, and Yicheng Chen. [GraphM: An Efficient Storage System for High Throughput of Concurrent Graph Processing](https://dl.acm.org/doi/10.1145/3295500.3356143). Proceedings of the 2019 International Conference for High Performance Computing, Networking, Storage, and Analysis.
+
+To cite GraphM, you can use the following BibTeX entry:
+```
+
+@inproceedings{DBLP:conf/sc/ZhaoZLHH0LC19,
+  author    = {Jin Zhao and
+               Yu Zhang and
+               Xiaofei Liao and
+               Ligang He and
+               Bingsheng He and
+               Hai Jin and
+               Haikun Liu and
+               Yicheng Chen},
+  editor    = {Michela Taufer and
+               Pavan Balaji and
+               Antonio J. Pe{\~{n}}a},
+  title     = {GraphM: an efficient storage system for high throughput of concurrent
+               graph processing},
+  booktitle = {Proceedings of the International Conference for High Performance Computing,
+               Networking, Storage and Analysis, {SC} 2019, Denver, Colorado, USA,
+               November 17-19, 2019},
+  pages     = {3:1--3:14},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3295500.3356143},
+  doi       = {10.1145/3295500.3356143},
+  timestamp = {Mon, 10 Aug 2020 08:13:11 +0200},
+  biburl    = {https://dblp.org/rec/conf/sc/ZhaoZLHH0LC19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
