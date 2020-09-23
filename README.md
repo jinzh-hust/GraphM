@@ -38,21 +38,9 @@ Jin Zhao, Yu Zhang, Xiaofei Liao, Ligang He, Bingsheng He, Hai Jin, Haikun Liu, 
 
 To cite GraphM, you can use the following BibTeX entry:
 ```
-
 @inproceedings{DBLP:conf/sc/ZhaoZLHH0LC19,
-  author    = {Jin Zhao and
-               Yu Zhang and
-               Xiaofei Liao and
-               Ligang He and
-               Bingsheng He and
-               Hai Jin and
-               Haikun Liu and
-               Yicheng Chen},
-  editor    = {Michela Taufer and
-               Pavan Balaji and
-               Antonio J. Pe{\~{n}}a},
-  title     = {GraphM: an efficient storage system for high throughput of concurrent
-               graph processing},
+  author    = {Jin Zhao and Yu Zhang and Xiaofei Liao and Ligang He and Bingsheng He and Hai Jin and Haikun Liu and Yicheng Chen},
+  title     = {GraphM: an efficient storage system for high throughput of concurrent graph processing},
   booktitle = {Proceedings of the International Conference for High Performance Computing,
                Networking, Storage and Analysis, {SC} 2019, Denver, Colorado, USA,
                November 17-19, 2019},
