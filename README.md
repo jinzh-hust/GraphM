@@ -1,5 +1,5 @@
 # GraphM
-It is an efficient storage system for for high throughput of concurrent graph analytics, and a lightweight runtime system which runs in any existing graph processing sytems
+It is an efficient storage system for high throughput of concurrent graph analytics, and a lightweight runtime system which runs in any existing graph processing sytems
 
 # Integrated with existing graph processing systems
 Sharing() call is inserted between successive graph loads in the existing systems (e.g., the function EdgeStreams() in GridGraph), and init() call is implemented before the processing. Besides, declarations are made while traversing the graph structure for fine-grained synchronization.
